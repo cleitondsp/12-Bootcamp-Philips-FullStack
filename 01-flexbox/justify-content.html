@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Justify content</title>
+
+    <style>
+        .container{
+            max-width: 400px;
+            border: 1px solid black;
+            margin: 0;
+            display: flex;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            text-align: center;
+            color: white;
+        }
+
+        .flexstart{
+            justify-content: flex-start;
+        }
+
+        .flexend{
+            justify-content: flex-end;
+        }
+
+        .center{
+            justify-content: center;
+        }
+
+        .spacebet{
+            justify-content: space-between;
+        }
+
+        .spacearo{
+            justify-content: space-around;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>flex start</h1>
+    <section class="container flexstart">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item 3</div>
+    </section>
+
+    <h1>flex end</h1>
+    <section class="container flexend">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item 3</div>
+    </section>
+
+    <h1>center</h1>
+    <section class="container center">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item 3</div>
+    </section>
+
+    <h1>space between</h1>
+    <section class="container spacebet">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item 3</div>
+    </section>
+
+    <h1>space around</h1>
+    <section class="container spacearo">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item 3</div>
+    </section>
+    
+</body>
+</html>
