@@ -42,13 +42,19 @@
             align-items: baseline;
         }
         
+        .column{
+            flex-direction: column;
+        }
+
     </style>
 </head>
 <body>
 
+    <h1>Row</h1>
+
     <h3>Center</h3>
     <p>centraliza verticalmente os elementos</p>
-    <section class="container center flex">
+    <section class="container center">
         <div class="item">item 1</div>
         <div class="item">Uma frase qualquer!</div>
         <div class="item">Outro texto só pra fazer teste e mais</div>
@@ -56,7 +62,7 @@
 
     <h3>Stretch</h3>
     <p>Justifica verticalmente todos os elementos com o mesmo tamanho do maior item</p>
-    <section class="container stretch flex"> 
+    <section class="container stretch"> 
         <div class="item">item 1</div>
         <div class="item">Uma frase qualquer!</div>
         <div class="item">Outro texto só pra fazer teste e mais</div>
@@ -64,7 +70,7 @@
 
     <h3>Flex-start</h3>
     <p>alinha todos os items no inicio da div</p>
-    <section class="container flex-start flex"> 
+    <section class="container flex-start"> 
         <div class="item">item 1</div>
         <div class="item">Uma frase qualquer!</div>
         <div class="item">Outro texto só pra fazer teste e mais</div>
@@ -72,7 +78,7 @@
 
     <h3>Flex-end</h3>
     <p>alinha todos os items no final da div</p>
-    <section class="container flex-end flex"> 
+    <section class="container flex-end"> 
         <div class="item">item 1</div>
         <div class="item">Uma frase qualquer!</div>
         <div class="item">Outro texto só pra fazer teste e mais</div>
@@ -80,6 +86,48 @@
 
     <h3>Baseline</h3>
     <section class="container baseline"> 
+        <div class="item">item 1</div>
+        <div class="item">Uma frase qualquer!</div>
+        <div class="item">Outro texto só pra fazer teste e mais</div>
+    </section>
+
+
+    <h1>Column</h1>
+
+    <h3>Center</h3>
+    <p>centraliza horizontalmente os elementos</p>
+    <section class="container center column">
+        <div class="item">item 1</div>
+        <div class="item">Uma frase qualquer!</div>
+        <div class="item">Outro texto só pra fazer teste e mais</div>
+    </section>
+
+    <h3>Stretch</h3>
+    <p>Justifica horizontalmente todos os elementos com o mesmo tamanho do maior item</p>
+    <section class="container stretch column"> 
+        <div class="item">item 1</div>
+        <div class="item">Uma frase qualquer!</div>
+        <div class="item">Outro texto só pra fazer teste e mais</div>
+    </section>
+
+    <h3>Flex-start</h3>
+    <p>alinha todos os items no inicio da div</p>
+    <section class="container flex-start column"> 
+        <div class="item">item 1</div>
+        <div class="item">Uma frase qualquer!</div>
+        <div class="item">Outro texto só pra fazer teste e mais</div>
+    </section>
+
+    <h3>Flex-end</h3>
+    <p>alinha todos os items no final da div</p>
+    <section class="container flex-end column"> 
+        <div class="item">item 1</div>
+        <div class="item">Uma frase qualquer!</div>
+        <div class="item">Outro texto só pra fazer teste e mais</div>
+    </section>
+
+    <h3>Baseline</h3>
+    <section class="container baseline column"> 
         <div class="item">item 1</div>
         <div class="item">Uma frase qualquer!</div>
         <div class="item">Outro texto só pra fazer teste e mais</div>
